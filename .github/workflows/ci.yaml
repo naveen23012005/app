@@ -30,4 +30,7 @@ jobs:
       - name: run flake8
         run: |
           flake8 app.py
+      - name: run tests
+        run: |
+          python -m unittest test_app.py
           
